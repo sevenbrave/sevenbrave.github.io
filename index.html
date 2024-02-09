@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Chess Game</title>
+  <link rel="stylesheet" type="text/css" href="chess.css">
+</head>
+<body>
+  <div id="chess-board">
+    <div class="row">
+      <div class="square black"></div>
+      <div class="square white"></div>
+      <div class="square black"></div>
+      <div class="square white"></div>
+      <div class="square black"></div>
+      <div class="square white"></div>
+      <div class="square black"></div>
+      <div class="square white"></div>
+    </div>
+    <!-- Repeat the above row for a total of 8 rows -->
+  </div>
+  <div id="pieces">
+    <div class="piece white pawn" data-position="a2"></div>
+    <!-- Repeat the above piece for a total of 8 pawns -->
+    <div class="piece black rook" data-position="a8"></div>
+    <!-- Repeat the above piece for a total of 8 pieces (rook, knight, bishop, queen, king) -->
+  </div>
+  <script src="chess.js"></script>
+</body>
+</html>
